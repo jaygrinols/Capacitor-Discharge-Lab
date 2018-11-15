@@ -14,7 +14,6 @@ ln_V = np.log(V)
 graph_title = ' '.join(re.split('[-.]', csv_name)[:-1]) + ' resistor'
 
 #Use subplots?
-#test
 
 plt.plot(T, V, color='green')
 plt.grid(True)

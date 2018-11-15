@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 script, csv_name = argv 
-data = pd.read_csv(csv_name)
+data = pd.read_csv("../csv_data/" + csv_name)
 
 
 T = data['Time_(s)'].values

@@ -5,7 +5,7 @@ import re
 
 script, csv_name = argv 
 data = pd.read_csv(csv_name)
-results = open('results.txt', 'w')
+results = open('results.txt', 'a')
 
 T = data['Time_(s)'].values
 V = data['Potential_(V)'].values

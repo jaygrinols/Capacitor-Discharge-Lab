@@ -1,4 +1,9 @@
 ++++++++++++++++++++++++++++++++++
+Resistance: 120 Ohms
+Experimental -1/Tau: -0.006980130283897981 
+Calculated -1/Tau: -0.008333333333333333
+Percent Error: -16.23843659322423%
+++++++++++++++++++++++++++++++++++
 Resistance: 68 Ohms
 Experimental -1/Tau: -0.012181352061731033 
 Calculated -1/Tau: -0.014705882352941176

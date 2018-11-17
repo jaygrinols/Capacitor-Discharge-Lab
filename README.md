@@ -4,6 +4,7 @@ Finding theoretical vs. experimental rate of discharging capacitors
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Files and Directory descriptions:
 
 /Data/: contains measured data for Electric Potential vs. Time)
@@ -20,6 +21,7 @@ Capacitor_Discharge.pdf: Typsetted derivation of capacitor discharge formula
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 .py Descriptions: 
 
 graphs.py: 
@@ -31,9 +33,12 @@ See 'Capacitor_Discharge.pdf' for the derivation of the theoretical equation.
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 CSV formatting requirements: 
 -Name: '[resistance value]-ohms.csv'
 -Attributes: Time_(s), Potential_(V)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 How to use scripts via command line: 
 python [script path] [csv path]

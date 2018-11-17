@@ -5,8 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 script, csv_name = argv 
-data = pd.read_csv("../csv_data/" + csv_name)
-
+data = pd.read_csv(csv_name)
 
 T = data['Time_(s)'].values
 V = data['Potential_(V)'].values
@@ -15,13 +14,12 @@ graph_title = ' '.join(re.split('[-.]', csv_name)[:-1]) + ' resistor'
 
 #Use subplots?
 
+plt.subplot(211)
 plt.plot(T, V, color='green')
-plt.grid(True)
 plt.title(graph_title)
-plt.xlabel('Time (s)')
 plt.ylabel('Electric Potential (V)')
-plt.show()
 
+plt.subplot(212)
 plt.plot(T, ln_V, color='orange')
 plt.title(graph_title)
 plt.xlabel('Time (s)')
